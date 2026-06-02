@@ -4,3 +4,17 @@ while x<10:
   x=x+1
   total=total+1
   print(total)
+
+#problem 2
+
+def even_odd(num):
+    if num %2==0:
+        return "even"
+    else:
+        return"odd"
+a=4
+b=9
+c=19
+print("a",even_odd(a))
+print("b",even_odd(b))
+print("c",even_odd(c))
