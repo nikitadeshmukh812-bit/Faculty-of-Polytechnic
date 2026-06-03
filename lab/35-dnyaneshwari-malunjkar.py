@@ -14,3 +14,10 @@ for num in [a, b, c]:
 else:
     print(num, "is not divisble by 3") 
 
+#problem
+l=[1, 2,3,4,5,6]
+l.pop(0) 
+l.pop(2) 
+l.pop(4) 
+print(l) 
+
