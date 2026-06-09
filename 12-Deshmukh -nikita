@@ -1,5 +1,16 @@
-#problem5
+-#problem5
 l = [1, 2, 3, 4, 5, 6]
 
 l = [x for x in l if x % 2 == 0]
 print(l)
+
+student =[]
+
+#problem 6
+student = []
+
+for i in range(50):
+    name = input("Enter name: ")
+    student.append(name)
+
+print("Student list:", student)
