@@ -14,3 +14,14 @@ for i in range(50):
     student.append(name)
 
 print("Student list:", student)
+
+#problem 7
+num = 10
+
+while num != 0:
+    vinp = int(input("Enter a number (0-10): "))
+
+    if 0 <= vinp <= 10:
+        print("Incorrect guess")
+    else:
+        print("Correct")
